@@ -27,23 +27,37 @@ img, video, iframe{
 }
 
 /* Estilos del header */
-/* .encabezado{
+.encabezado{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/background_encabezado.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    max-height: 450px;
+}
 
-} */
+.encabezado__logo{
+    width: 160px;
+    margin: 165px 45px 10px 0px;
+}
 
-/* .encabezado__logo{
+.encabezado__eslogan{
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
 
-} */
+.encabezado__eslogan-titulo{
+    font-size: 3.5rem;
+    margin-top: 10px;
+    margin-bottom: -8px;
+}
 
-/* .encabezado__eslogan{
-
-} */
-
-/* .encabezado__eslogan-titulo{
-
-} */
-
-/* .encabezado__eslogan-parrafo{
-
-} */
+.encabezado__eslogan-parrafo{
+    font-size: 1.8rem;
+    margin-bottom: 60px;
+}
 
