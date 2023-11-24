@@ -25,3 +25,31 @@
     text-align: left;
 }
 
+.form-check-input:checked {
+    background-color: #462a19;;
+    border-color: #ffb900;
+}
+
+.politica-privacidad{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.btn {
+    --bs-btn-padding-x: 22.4rem;
+    --bs-btn-padding-y: 0.6rem;
+    --bs-btn-font-size: 1.1rem;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #462a19;
+    --bs-btn-border-color: #462a19;
+    --bs-btn-hover-color: #ffb900;
+    --bs-btn-hover-bg: #462a19;
+    --bs-btn-hover-border-color: #462a19;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #db0007;
+    --bs-btn-active-border-color: #db0007;
+}
