@@ -1,0 +1,27 @@
+/*Estilos del Formulario de Contacto*/
+.contacto_contenedor{
+    text-align: center;
+}
+.contacto-titulo{
+    background-color: #462a19;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 0.2rem;
+    padding: 1.2rem 0;
+    margin-top: 25px;
+}
+
+.contacto-duda-sugerencia{
+    font-size: 1.15rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.contacto-completa{
+    font-size: 1.2rem ;
+    font-weight: 700;
+    text-align: left;
+}
+
