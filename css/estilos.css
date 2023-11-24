@@ -28,7 +28,7 @@ img, video, iframe{
 
 /* Estilos del header */
 .encabezado{
-    border:5px solid red;
+    /* border:5px solid red; */
     width:100%;
     display: flex;
     flex-direction: column;
@@ -64,7 +64,7 @@ img, video, iframe{
 
 /* Estilos del main */
 .principal{
-    border:5px solid blue; 
+    /* border:5px solid blue;  */
     width: 50%;
     margin:0 auto;
 }
@@ -92,7 +92,7 @@ img, video, iframe{
 }
 
 .s1-linktree__lista-item :hover{
-    border:3px solid #462a19;
+    /* border:3px solid #462a19; */
     border-radius: 0.5rem;
     font-size: 1.2rem;
     color: #ffb900;
@@ -143,7 +143,7 @@ img, video, iframe{
 }
 
 .s3-tarjeta__lista-titulo{
-    font-size: 1.4rem;
+    font-size: 1.45rem;
     margin: 0.6rem 1rem;
 
 }

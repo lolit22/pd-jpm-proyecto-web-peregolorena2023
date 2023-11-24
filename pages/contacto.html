@@ -9,22 +9,35 @@
 
     <title>McDonald's - Contacto</title>
 
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">    
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"> 
+    
+    <!--Vinculación del archivo contacto.html con el archivo estilos.css-->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+
+    <!--Tipografía de Google Fonts (varinantes 300, 400 y 700)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <!--Encabezado de la Página Contacto-->
-    <header>
+    <header class="encabezado">
 
-        <img src="../images/logo_blanco_cuadrado.png" alt="Logo de McDonald's Pileta de Cheddar">
-        <h1>Pileta de Cheddar</h1>
-        <p>Una mini pelopincho con mucho, muchísimo cheddar, che.</p>
+        <div class="encabezado__logo">
+            <img src="../images/logo_blanco_cuadrado.png" alt="Logo de McDonald's Pileta de Cheddar">
+        </div>
+        <div class="encabezado__eslogan">
+            <h1 class="encabezado__eslogan-titulo">Pileta de Cheddar</h1>
+            <p class="encabezado__eslogan-parrafo">Una mini pelopincho con mucho, muchísimo cheddar, che.</p>
+        </div>
 
     </header>
 
      <!--Sección Principal de la Página Contacto--> 
-    <main >
+    <main class="principal">
 
         <!--Sección: Formulario de Contacto--> 
         <section>
@@ -102,5 +115,6 @@
 
     </footer>
 
+    
 </body>
 </html>
