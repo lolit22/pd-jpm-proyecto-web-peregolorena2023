@@ -134,3 +134,79 @@ img, video, iframe{
     margin:1.5rem 0;
 }
 
+/*Estilos del footer*/
+.pie-pagina{
+    /* border:5px solid green; */
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.pie-pagina__contenedor{
+    /* border: 5px solid #640080; */
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+}
+
+.links-interes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.pie-pagina_enlace:hover{
+    color:#ffb900;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+
+.imagen-enlace{
+    width:110px;
+}
+
+.enlaces_contenedor{
+    /* border: 5px solid #1e0080; */
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    width: 50%;
+    gap:2rem;
+}
+
+.descargas__contenedor{
+    /* border: 5px solid #805c00; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.descargas__titulo{
+    font-size: 1rem;
+}
+
+.descargas__enlace img{
+    width: 110px;
+}
+
+
+.pie-pagina__creditos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.creditos__logo{
+    width: 7rem;
+    margin-top: 1.5rem;
+    margin-bottom: -0.5rem;
+}
+
+.creditos__parrafo{
+    font-size: 0.9rem;
+    margin-bottom: 1.3rem;
+}
+
