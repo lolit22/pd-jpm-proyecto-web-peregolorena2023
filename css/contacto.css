@@ -1,3 +1,13 @@
+/* Estilos del Encabezado de Contacto */
+.encabezado__eslogan-titulo{
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.encabezado__eslogan-parrafo{
+    margin-top: 8px;
+}
+
 /*Estilos del Formulario de Contacto*/
 .contacto_contenedor{
     text-align: center;
