@@ -42,6 +42,7 @@
      <!--Sección Principal de la Página Contacto--> 
     <main class="principal">
         
+
         <!--Sección: Formulario de Contacto--> 
         <section class="s-contacto">
 
@@ -54,51 +55,51 @@
             <form action="" method="post">
 
                 <!--Campo del Nombre y Apellido-->
-                <div>
-                    <label for="nombre-apellido">Nombre</label>
-                    <input type="text" name="nombre" id="nombre">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name" name="nombre-apellido" required>
+                    <label for="floatingInput">* Nombre y Apellido</label>
                 </div>
 
                 <!--Campo del E-mail-->
-                <div>
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email" required>
+                    <label for="floatingInput">* Correo Electronico</label>
                 </div>
 
                 <!--Campo del Asunto-->
-                <div>
-                    <label for="asunto">Asunto</label>
-                    <select name="asunto" id="asunto">
-                        <option value="">Elegir</option>
-                        <option value="comentario">Consulta</option>
-                        <option value="critica">Crítica</option>
+                <div class="form-floating mb-3">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example" name="asunto" >
+                        <option selected>Elegí el asunto por el que nos contactas</option>
+                        <option value="consulta">Consulta</option>
                         <option value="sugerencia">Sugerencia</option>
                         <option value="reclamo">Reclamo</option>
+                        <option value="critica">Crítica</option>
                         <option value="otro">Otro</option>
                     </select>
+                    <label for="floatingSelect">* Asunto</label>
                 </div>
 
                 <!--Campo del Mensaje-->
-                <div>
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="6"></textarea>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Escribi el mensaje acá." id="floatingTextarea2" style="height: 150px" name="message" required ></textarea>
+                    <label for="floatingTextarea2">* Mensaje</label>
                 </div>
 
                 <!--Campo de Aceptación de Noticias y Promociones-->
-                <div>
-                    <input type="checkbox" name="noticias" id="noticias">
-                    <label for="noticias">Acepto recibir noticias y promociones de McDonald's Argentina</label>
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="noticias-promociones">
+                    <label class="form-check-label" for="flexCheckDefault"> * Acepto recibir noticias y promociones de McDonald's Argentina</label>
                 </div>
 
                 <!--Campo de Aceptación de Política de Privacidad-->
-                <div>
-                    <input type="checkbox" name="privacidad" id="privacidad">
-                    <label for="privacidad">Acepto la <a href="https://www.mcdonalds.com.ar/politica-de-privacidad" target="_blank">Política de Privacidad</a></label>
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"  name="politica-privacidad" checked required>
+                    <label class="form-check-label" for="flexCheckChecked">* Acepto la <a class="politica-privacidad" href="https://www.mcdonalds.com.ar/politica-de-privacidad" target="_blank">Política de Privacidad</label>
                 </div>
 
                 <!--Botón de Enviar Datos del Formulario-->
-                <div>
-                    <input type="submit" value="Enviar">
+                <div class="form-btn mb-5">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
                 </div>
 
             </form>
