@@ -63,3 +63,19 @@
     --bs-btn-active-bg: #db0007;
     --bs-btn-active-border-color: #db0007;
 }
+
+/*Estilos del footer*/
+
+.links-interes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.enlaces_contenedor {
+    /* border: 5px solid #1e0080; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: -2rem;
+}
