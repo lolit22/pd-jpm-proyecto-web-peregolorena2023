@@ -29,6 +29,58 @@
         <!--Sección: Formulario de Contacto--> 
         <section>
 
+            <form action="" method="post">
+
+                <!--Campo del Nombre y Apellido-->
+                <div>
+                    <label for="nombre-apellido">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+
+                <!--Campo del E-mail-->
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <!--Campo del Asunto-->
+                <div>
+                    <label for="asunto">Asunto</label>
+                    <select name="asunto" id="asunto">
+                        <option value="">Elegir</option>
+                        <option value="comentario">Consulta</option>
+                        <option value="critica">Crítica</option>
+                        <option value="sugerencia">Sugerencia</option>
+                        <option value="reclamo">Reclamo</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <!--Campo del Mensaje-->
+                <div>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="6"></textarea>
+                </div>
+
+                <!--Campo de Aceptación de Noticias y Promociones-->
+                <div>
+                    <input type="checkbox" name="noticias" id="noticias">
+                    <label for="noticias">Acepto recibir noticias y promociones de McDonald's Argentina</label>
+                </div>
+
+                <!--Campo de Aceptación de Política de Privacidad-->
+                <div>
+                    <input type="checkbox" name="privacidad" id="privacidad">
+                    <label for="privacidad">Acepto la <a href="https://www.mcdonalds.com.ar/politica-de-privacidad" target="_blank">Política de Privacidad</a></label>
+                </div>
+
+                <!--Botón de Enviar Datos del Formulario-->
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+
         </section>
 
     </main>
