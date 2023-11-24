@@ -120,7 +120,37 @@ img, video, iframe{
 }
 
 /*Estilos Sección 3: Nuevo producto Bacon McMELTy Membresía VIP Automac*/
+.s3-tarjetas__lista{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+}
 
+.s3-tarjetas__lista-item{
+    width: 365px;
+    height: 340px;
+    border-top: 2px solid #462a19;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.s3-tarjeta__lista-imagen{
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.s3-tarjeta__lista-titulo{
+    font-size: 1.4rem;
+    margin: 0.6rem 1rem;
+
+}
+
+.s3-tarjeta__lista-parrafo{
+    margin: 1rem 1rem;
+}
 
 /*Estilos Sección 4: Banner Cajita Feliz - Trailer Película 'The Marvels'*/
 .s4-banner__contenedor{
@@ -131,7 +161,7 @@ img, video, iframe{
 }
 
 .s4-banner__enlace{
-    margin:1.5rem 0;
+    margin: 1.5rem 0;
 }
 
 /*Estilos del footer*/
@@ -163,9 +193,9 @@ img, video, iframe{
     font-weight: 400;
 }
 
-
 .imagen-enlace{
     width:110px;
+    margin: 0 3px;
 }
 
 .enlaces_contenedor{
@@ -185,6 +215,8 @@ img, video, iframe{
 
 .descargas__titulo{
     font-size: 1rem;
+    font-weight: 700;
+    margin-right: 6px;
 }
 
 .descargas__enlace img{
