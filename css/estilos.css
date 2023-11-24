@@ -61,3 +61,44 @@ img, video, iframe{
     margin-bottom: 60px;
 }
 
+/* Estilos del main */
+.principal{
+    /* border:5px solid blue;  */
+    width: 50%;
+    margin:0 auto;
+}
+
+/* Estilos Sección 1: LinkTree de McDonald's Argentina */
+.s1-linktree{
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.s1-linktree__lista{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    list-style-type: none;
+}
+
+.s1-linktree__lista-item{
+    background-color: #462a19;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 0.2rem;
+}
+
+.s1-linktree__lista-item :hover{
+    border:3px solid #462a19;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    color: #ffb900;
+    letter-spacing: 0.2rem;
+}
+
+.s1-linktree__lista-enlace{
+    display: block;
+    padding: 1.2rem;
+}
